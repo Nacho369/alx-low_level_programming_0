@@ -17,13 +17,16 @@ int main(void)
 	{
 		for (digit2 = 49; digit2 < 58; digit2++)
 		{
-			if (digit1 != digit2)
+			if (digit2 > digit1)
 			{
 				putchar(digit1);
 				putchar(digit2);
 
-				putchar(44);
-				putchar(32);
+				if (digit1 != 56 || digit2 != 57)
+				{
+					putchar(44);
+					putchar(32);
+				}
 			}
 
 		}
