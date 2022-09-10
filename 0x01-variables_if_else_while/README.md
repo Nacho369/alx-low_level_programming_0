@@ -1,8 +1,9 @@
 ## This is a README file containing the various TASKS in this directory
 
 **Task 0. Positive anything is better than negative nothing:** Complete the source code of a programme in order to print whether the number stored in the variable n is positive or negative.
+[Source Code](https://github.com/holbertonschool/0x01.c/blob/master/0-positive_or_negative_c)
 ```
-- You can find the source code [here](https://github.com/holbertonschool/0x01.c/blob/master/1-last_digit_c)
+- You can find the source code above.
 - The variable n will store a different value every time you will run this program
 - You don’t have to understand what rand, srand, RAND_MAX do. Please do not touch this code
 - The output of the program should be:
@@ -14,8 +15,9 @@
 ```
 
 **Task 1. The laat digit:**  Complete the source code in order to print the last digit of the number stored in the variable n.
+[Source Code](https://github.com/holbertonschool/0x01.c/blob/master/0-positive_or_negative_c)
 ```
-- You can find the source code [here](https://github.com/holbertonschool/0x01.c/blob/master/1-last_digit_c)
+- You can find the source code above.
 - The variable n will store a different value every time you run this program
 - You don’t have to understand what rand, srand, and RAND_MAX do. Please do not touch this code
 - The output of the program should be:
@@ -41,3 +43,26 @@
 - All your code should be in the main function
 - You can only use putchar three times in your code
 ```
+
+**Task 4. When I was having that alphabet soup, I never thought that it would pay off:** A C program that prints the alphabet in lowercase, followed by a new line.
+```
+- Print all the letters except q and e
+- You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+- All your code should be in the main function
+- You can only use putchar twice in your code
+```
+
+**Task 5. Numbers:** A C program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
+```
+- All your code should be in the main function
+```
+
+**Task 6. Numberz:** A C program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
+```
+- You are not allowed to use any variable of type char
+- You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+- You can only use putchar twice in your code
+- All your code should be in the main function
+```
+
+
