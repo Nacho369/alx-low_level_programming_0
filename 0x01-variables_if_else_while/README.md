@@ -1,7 +1,7 @@
 ## This is a README file containing the various TASKS in this directory
 
 **Task 0. Positive anything is better than negative nothing:** Complete the source code of a programme in order to print whether the number stored in the variable n is positive or negative.
-[Source Code](https://github.com/holbertonschool/0x01.c/blob/master/0-positive_or_negative_c)
+Link to Source Code [here](https://github.com/holbertonschool/0x01.c/blob/master/0-positive_or_negative_c)
 ```
 - You can find the source code above.
 - The variable n will store a different value every time you will run this program
@@ -15,7 +15,7 @@
 ```
 
 **Task 1. The laat digit:**  Complete the source code in order to print the last digit of the number stored in the variable n.
-[Source Code](https://github.com/holbertonschool/0x01.c/blob/master/0-positive_or_negative_c)
+Link to Source Code [here](https://github.com/holbertonschool/0x01.c/blob/master/0-positive_or_negative_c)
 ```
 - You can find the source code above.
 - The variable n will store a different value every time you run this program
@@ -65,4 +65,67 @@
 - All your code should be in the main function
 ```
 
+**Task 7. Smile in the Mirror:** A C program that prints the lowercase alphabet in reverse, followed by a new line.
+```
+- You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+- All your code should be in the main function
+- You can only use putchar twice in your code.
+```
 
+**Task 8. Hexadecimal:** A C program that prints all the numbers of base 16 in lowercase, followed by a new line.
+```
+- You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+- All your code should be in the main function
+- You can only use putchar three times in your code.
+```
+
+**Task 9. Patience, persistence and perspiration make an unbeatable combination for success:** A C program that prints all possible combinations of single-digit numbers.
+```
+- Numbers must be separated by ,, followed by a space
+- Numbers should be printed in ascending order
+- You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+- All your code should be in the main function
+- You can only use putchar four times maximum in your code
+- You are not allowed to use any variable of type char.
+```
+
+**Task 10. Inventing is a combination of brains and materials. The more brains you use, the less material you need:** A C program that prints all possible different combinations of two digits.
+```
+- Numbers must be separated by ,, followed by a space
+- The two digits must be different
+- 01 and 10 are considered the same combination of the two digits 0 and 1
+- Print only the smallest combination of two digits
+- Numbers should be printed in ascending order, with two digits
+- You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+- You can only use putchar five times maximum in your code
+- You are not allowed to use any variable of type char
+- All your code should be in the main function
+```
+
+**Task 11. The success combination in business is: Do what you do better... and: do more of what you do...:** A C program that prints all possible different combinations of three digits.
+```
+- Numbers must be separated by ,, followed by a space
+- The three digits must be different
+- 012, 120, 102, 021, 201, 210 are considered the same combination of the three digits 0, 1 and 2
+- Print only the smallest combination of three digits
+- Numbers should be printed in ascending order, with three digits
+- You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+- You can only use putchar six times maximum in your code
+- You are not allowed to use any variable of type char
+- All your code should be in the main function
+```
+
+**Task 12. Software is eating the World:** A C program that prints all possible combinations of two two-digit numbers.
+```
+- The numbers should range from 0 to 99
+- The two numbers should be separated by a space
+- All numbers should be printed with two digits. 1 should be printed as 01
+- The combination of numbers must be separated by comma, followed by a space
+- The combinations of numbers should be printed in ascending order
+- 00 01 and 01 00 are considered as the same combination of the numbers 0 and 1
+- You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+- You can only use putchar eight times maximum in your code
+- You are not allowed to use any variable of type char
+- All your code should be in the main function
+
+----------
