@@ -1,7 +1,7 @@
 ## This is a README file containing the various TASKS in this directory
 
 **Task 0. Positive anything is better than negative nothing:** Complete the source code of a programme in order to print whether the number stored in the variable n is positive or negative.
-Link to Source Code [here](https://github.com/holbertonschool/0x01.c/blob/master/0-positive_or_negative_c)
+> Link to Source Code [here](https://github.com/holbertonschool/0x01.c/blob/master/0-positive_or_negative_c)
 ```
 - You can find the source code above.
 - The variable n will store a different value every time you will run this program
@@ -15,7 +15,7 @@ Link to Source Code [here](https://github.com/holbertonschool/0x01.c/blob/master
 ```
 
 **Task 1. The laat digit:**  Complete the source code in order to print the last digit of the number stored in the variable n.
-Link to Source Code [here](https://github.com/holbertonschool/0x01.c/blob/master/0-positive_or_negative_c)
+> Link to Source Code [here](https://github.com/holbertonschool/0x01.c/blob/master/0-positive_or_negative_c)
 ```
 - You can find the source code above.
 - The variable n will store a different value every time you run this program
@@ -102,7 +102,7 @@ Link to Source Code [here](https://github.com/holbertonschool/0x01.c/blob/master
 - All your code should be in the main function
 ```
 
-**Task 11. The success combination in business is: Do what you do better... and: do more of what you do...:** A C program that prints all possible different combinations of three digits.
+**Task 11. The success combination in business is: Do what you do better... and: do more of what you do... :** A C program that prints all possible different combinations of three digits.
 ```
 - Numbers must be separated by ,, followed by a space
 - The three digits must be different
@@ -127,5 +127,6 @@ Link to Source Code [here](https://github.com/holbertonschool/0x01.c/blob/master
 - You can only use putchar eight times maximum in your code
 - You are not allowed to use any variable of type char
 - All your code should be in the main function
+```
 
-----------
+	
