@@ -7,8 +7,7 @@
  *
  * Return: void
  */
-void i_equals_to_one_or_zero(int i)
-
+void i_equals_to_one_or_zero(int i);
 
 void i_equals_to_two(int i);
 
