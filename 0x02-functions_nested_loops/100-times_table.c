@@ -57,9 +57,10 @@ void print_times_table(int n)
 		}
 	}
 	else if (n == 0)
-		else_condition();	
+		else_condition();
 }
 
+/**                                                            * else_condition - else statment function                     *                                                             * Return: void                                                */
 void else_condition(void)
 {
 	_putchar('0');
