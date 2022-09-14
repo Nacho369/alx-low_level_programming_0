@@ -48,9 +48,9 @@ Write a function that prints the sign of a number.
 ```
 
 ### Task 6. There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you.
-- Write a function that computes the absolute value of an integer.
+Write a function that computes the absolute value of an integer.
 ```
-Prototype: int _abs(int);
+- Prototype: int _abs(int);
 ```
 > FYI: The standard library provides a similar function: abs. Run man abs to learn more.
 
