@@ -1,6 +1,13 @@
 #include "main.h"
 
 /**
+ * else_condition - else statment function
+ *
+ * Return: void
+ */
+void else_condition(void)
+
+/**
  * print_times_table - Prints the n times table, starting with 0.
  *
  * @n: integer value to be passed in.
@@ -50,8 +57,11 @@ void print_times_table(int n)
 		}
 	}
 	else if(n == 0)
-	{
-		_putchar('0');
-		_putchar('\n');
-	}
+		else_condition();	
+}
+
+void else_condition(void)
+{
+	_putchar('0');
+	_putchar('\n');
 }
