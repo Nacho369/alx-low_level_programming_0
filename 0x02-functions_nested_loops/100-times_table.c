@@ -8,7 +8,7 @@
 
 void print_times_table(int n)
 {
-	int row, col, prod;
+	int row, col, prod, hunds, tens, units;
 
 	if (n > 0 || n <= 15)
 	{
@@ -17,32 +17,42 @@ void print_times_table(int n)
 			for (col = 0; col <= n; col++)
 			{
 				prod = row * col;
+				hunds = prod / 100;
+				tens = (prod / 10) % 10;
+				units = prod % 10;
 
-				if (col == 0)
-					_putchar('0');
-				else if (prod < 10)
+				if (prod < 10)
 				{
-					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
-					_putchar(' ');
-					_putchar(prod % 10 + '0');
+					if (col != 0)
+					{
+						_putchar(',');
+						_putchar(' ');
+						_putchar(' ');
+						_putchar(' ');
+					}
+					_putchar(prod + '0');
 				}
 				else if (prod >= 10 && prod < 100)
 				{
-					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
-					_putchar((prod / 10) % 10 + '0');
-					_putchar(prod % 10 + '0');
+					if (col != 0)
+					{
+						_putchar(',');
+						_putchar(' ');
+						_putchar(' ');
+					}
+					_putchar(tens + '0');
+					_putchar(units + '0');
 				}
-				else if (prod > 99 && prod < 1000)
+				else if (prod >= 100 && prod < 1000)
 				{
-					_putchar(',');
-					_putchar(' ');
-					_putchar(prod / 100 + '0');
-					_putchar((prod / 10) % 10 + '0');
-					_putchar(prod % 10 + '0');
+					if (col != 0)
+					{
+						_putchar(',');
+						_putchar(' ');
+					}
+					_putchar(hunds + '0');
+					_putchar(tens + '0');
+					_putchar(units + '0');
 				}
 			}
 
