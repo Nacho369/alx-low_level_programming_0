@@ -60,7 +60,11 @@ void print_times_table(int n)
 		else_condition();
 }
 
-/**                                                            * else_condition - else statment function                     *                                                             * Return: void                                                */
+/**
+ * else_condition - else statement for top function
+ *
+ * Return: void
+ */
 void else_condition(void)
 {
 	_putchar('0');
