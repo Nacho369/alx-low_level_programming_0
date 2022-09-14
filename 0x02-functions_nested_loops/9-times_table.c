@@ -7,7 +7,7 @@
  */
 void times_table(void)
 {
-	int row, col, prod, tens, ones;
+	int row, col, prod, tens, units;
 
 	for (row = 0; row <= 9; row++)
 	{
@@ -15,25 +15,27 @@ void times_table(void)
 		{
 			prod = row * col;
 			tens = prod / 10;
-			ones = prod % 10;
+			units = prod % 10;
 
-			if (col == 0)
+			if (prod >= 10)
 			{
-				_putchar('0');
+				if (col != 0)
+				{
+					_putchar(',');
+					_putchar(' ');
+				}
+				_putchar(tens + '0');
+				_putchar(units + '0');
 			}
 			else if (prod < 10)
 			{
-				_putchar(',');
-				_putchar(' ');
-				_putchar(' ');
-				_putchar(ones + '0');
-			}
-			else
-			{
-				_putchar(',');
-				_putchar(' ');
-				_putchar(tens + '0');
-				_putchar(ones + '0');
+				if (col != 0)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+				}
+				_putchar(prod + '0');
 			}
 		}
 
