@@ -18,9 +18,9 @@ void puts_half(char *str)
 	}
 
 	if (max % 2 != 0)
-		half = (max - 1) / 2;
+		half = (index - 1) / 2;
 	else
-		half = max / 2;
+		half = index / 2;
 
 	i = half + 1;
 
