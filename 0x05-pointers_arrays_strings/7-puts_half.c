@@ -10,23 +10,23 @@
 
 void puts_half(char *str)
 {
-	int index = 0, max, half;
+	int index = 0, half, i;
 
 	while (str[index] != '\0')
 	{
 		index++;
 	}
 
-	max = index;
-
 	if (max % 2 != 0)
 		half = (max - 1) / 2;
 	else
 		half = max / 2;
 
-	while (half <= max)
+	i = half + 1;
+
+	while (str[i] != '\0')
 	{
-		_putchar(str[half]);
+		_putchar(str[i]);
 
 		half++;
 	}
