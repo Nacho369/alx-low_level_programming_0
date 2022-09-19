@@ -1,3 +1,3 @@
-# This is a README file for the More functions, more nested loops project
+# This is a README file for Pointers, arrays and strings project
 
 To be updated...
