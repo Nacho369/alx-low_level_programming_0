@@ -1,0 +1,3 @@
+# This is a README file for More Pointers, arrays and strings project
+
+To be edited...
