@@ -5,6 +5,7 @@
  *
  * @dest: start string without terminating null byte
  * @src: end string with terminating null byte
+ * @n: limit to concatenate from src
  *
  * Return: Pointer to the resulting string dest
  *
