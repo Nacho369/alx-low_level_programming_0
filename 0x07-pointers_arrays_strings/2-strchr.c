@@ -6,7 +6,7 @@
  * @s: String to search for character @c in
  * @c: Character to locate in the string @s
  *
- * Returns: First occurence of c or NULL if not found
+ * Return: First occurence of c or NULL if not found
  */
 char *_strchr(char *s, char c)
 {
