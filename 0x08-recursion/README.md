@@ -1,6 +1,6 @@
 # This is a README file for More Pointers, arrays and strings project
 
-#0x07. C - More pointers, arrays and strings
+# 0x07. C - More pointers, arrays and strings
 
 ### Task 0. She locked away a secret, deep inside herself, something she once knew to be true... but chose to forget
 
