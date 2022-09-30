@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 #include "main.h"
 
 /**
- * main - Multiplies to number passed in as
- * arguments
+ * main - Print the sum of positive numbers
  *
  * @argc: The number of arguments supplied to the
  * program.
@@ -15,20 +15,23 @@
  */
 int main(int argc, char *argv[])
 {
-	int result;
-	int num1 = atoi(argv[1]);
-	int num2 = atoi(argv[2]);
+	int i, result = 0, nums;
 
-	if (argc != 3)
+	for (i = 1; i < argc; i++)
 	{
-		printf("Error\n");
+		for (nums = 0; argv[i][nums]; nums++)
+		{
+			if (argv[i][nums] < '0' || argv[i][nums] > '9')
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
 
-		return (1);
+		result += atoi(argv[i]);
 	}
 
-	result = num1 * num2;
-
 	printf("%d\n", result);
-
+	
 	return (0);
 }
