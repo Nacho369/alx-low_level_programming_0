@@ -8,6 +8,8 @@
  *
  * @s2: Secomd String
  *
+ * @n: Lenght of s2 to copy.
+ *
  * Return: Pointer to the space allocated for
  * new string
  */
@@ -15,7 +17,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	/* Initialization of variables */
 	unsigned int i, j, k, len = n;
-	char* ptr;
+	char *ptr;
 
 	/* Check if s1 or s2 is NULL */
 	if (s1 == NULL)
