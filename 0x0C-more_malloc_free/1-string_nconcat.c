@@ -15,12 +15,10 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	/* Initialization of variables */
 	unsigned int i, j, len;
 	unsigned int k = 0, len1 = 0, len2 = 0;
 	char *ptr;
 
-	/* Check if s1 or s2 is NULL */
 	if (s1 == NULL)
 		s1 = "";
 	else if (s2 == NULL)
@@ -36,14 +34,13 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (n <= len2)
 		len2 = n;
 	else if (n >= len2)
-		len2 = len2;
+		n = len2;
 
 	len = len1 + len2;
 
 	/* Reserve a space in memory for new string */
 	ptr = malloc(sizeof(char) * (len + 1));
 
-	/* Check if malloc fails */
 	if (ptr == NULL)
 		return (NULL);
 
