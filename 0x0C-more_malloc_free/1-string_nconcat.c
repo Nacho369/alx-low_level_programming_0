@@ -36,10 +36,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (n < len2)
 		len2 = n;
 
-	len = len1 + len2;
+	len = len1 + len2 + 1;
 
 	/* Reserve a space in memory for new string */
-	ptr = malloc(sizeof(char) * (len + 1));
+	ptr = malloc(sizeof(char) * (len));
 
 	/* Check if malloc fails */
 	if (ptr == NULL)
