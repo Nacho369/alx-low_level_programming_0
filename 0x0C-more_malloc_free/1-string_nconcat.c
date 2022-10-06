@@ -26,7 +26,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s2 = "";
 
 	/* Get lenght of string */
-	for (i = 0; s1[i]; i++)
+	for (i = 0; s1[i] != '\0'; i++)
 		len++;
 
 	/* Reserve a space in memory for new string */
@@ -37,10 +37,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		return (NULL);
 
 	/* Concatenates two strings */
-	for (i = 0; s1[i]; i++)
+	for (i = 0; s1[i] != '\0'; i++)
 		ptr[i] = s1[i];
 
-	for (k = 0, j = i; s2[k] && k < n; k++, j++)
+	for (k = 0, j = i; s2[k] != '\0' && k < n; k++, j++)
 		ptr[j] = s2[k];
 
 	ptr[len] = '\0';
