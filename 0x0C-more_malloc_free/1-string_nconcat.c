@@ -16,7 +16,7 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	/* Initialization of variables */
-	unsigned int i, j, k, len = n;
+	unsigned int i, j, k, len = 0;
 	char *ptr;
 
 	/* Check if s1 or s2 is NULL */
@@ -27,6 +27,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	/* Get lenght of string */
 	for (i = 0; s1[i] != '\0'; i++)
+		len++;
+	for (j = 0; s2[j] != '\0' && j <= n; j++)
 		len++;
 
 	/* Reserve a space in memory for new string */
@@ -40,8 +42,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (i = 0; s1[i] != '\0'; i++)
 		ptr[i] = s1[i];
 
-	for (k = 0, j = i; s2[k] != '\0' && k < n; k++, j++)
-		ptr[j] = s2[k];
+	for (j = 0, k = i; s2[j] != '\0' && j <= n; j++, k++)
+		ptr[k] = s2[j];
 
 	ptr[len] = '\0';
 
