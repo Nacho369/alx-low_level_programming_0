@@ -33,7 +33,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (j = 0; s2[j]; j++)
 		len2++;
 
-	if (n < len2)
+	if (n <= len2)
 		len2 = n;
 
 	len = len1 + len2;
