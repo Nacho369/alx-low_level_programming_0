@@ -16,8 +16,8 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	/* Initialization of variables */
-	unsigned int i, j, k, len;
-	unsigned int len1 = 0, len2 = 0;
+	unsigned int i, j, len;
+	unsigned int k = 0, len1 = 0, len2 = 0;
 	char *ptr;
 
 	/* Check if s1 or s2 is NULL */
@@ -46,8 +46,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		return (NULL);
 
 	/* Concatenates two strings */
-	k = 0;
-
 	for (i = 0; i < len1; i++)
 		ptr[k++] = s1[i];
 
