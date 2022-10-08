@@ -13,7 +13,7 @@
  *
  * Return: 0 (Success)
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int i, j;
 	long int num1, num2, res = 0;
@@ -28,12 +28,16 @@ int main (int argc, char *argv[])
 	num2 = atoi(argv[2]);
 
 	for (i = 1; i < argc; i++)
+	{
 		for (j = 0; argv[i][j] != '\0'; j++)
-			if (!(isdigit(argv[i][j])))
+		{
+			if (argv[i][j] < 48 && argv[i][j] > 57)
 			{
 				printf("Error\n");
 				exit(98);
 			}
+		}
+	}
 
 	res = num1 * num2;
 	printf("%lu\n", res);
