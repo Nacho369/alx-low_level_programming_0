@@ -1,4 +1,4 @@
-i#include <stdio.h>
+#include <stdio.h>
 
 /**
  * main - Prints the name of the file of the program
@@ -8,7 +8,7 @@ i#include <stdio.h>
  */
 int main(void)
 {
-	printf("%s\n", __FILE__);
+	printf("%s\n", (__FILE__));
 
 	return (0);
 }
