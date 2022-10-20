@@ -13,6 +13,9 @@ size_t print_list(const list_t *h)
 	char  *str = h->str;
 	unsigned int len = h->len;
 
+	if (h == NULL)
+		return (0);
+
 	for (node = 0; h != NULL; node++)
 	{
 		if (h->str == NULL)
