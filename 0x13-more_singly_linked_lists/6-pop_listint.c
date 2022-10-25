@@ -1,5 +1,12 @@
 #include "lists.h"
 
+/**
+ * pop_listint - delete the head node and update the linked list
+ *
+ * @head: first element of the list
+ *
+ * Return: Head node data.
+ */
 int pop_listint(listint_t **head)
 {
 	int i;
