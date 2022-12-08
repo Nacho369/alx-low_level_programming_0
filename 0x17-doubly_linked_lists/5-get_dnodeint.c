@@ -19,7 +19,7 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 	if (head == NULL)
 		return (NULL);
 
-	for (node = 0; ptr->next != NULL; node++)
+	for (node = 0; ptr != NULL; node++)
 	{
 		if (node == index)
 		{
