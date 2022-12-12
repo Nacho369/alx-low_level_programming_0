@@ -2,4 +2,4 @@
 
 gcc -c *.c -fpic
 
-gcc -o *.o -shared liball.so
+gcc -o -shared *.o liball.so
