@@ -14,10 +14,10 @@ hash_table_t *hash_table_create(unsigned long int size)
 	size_t i;
 
 	if (hash_t == NULL)
-		return NULL;
+		return (NULL);
 
 	if (arr == NULL)
-		return NULL;
+		return (NULL);
 
 	hash_t->size = size;
 	hash_t->array = arr;
